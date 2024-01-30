@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.selection{
+  display: block;
+  margin: auto;
+  background: #0dc692;
+  margin-top: 40px;
+  width: 200px;
+  height: 40px;
+  font-size: 25px;
+  text-align: center;
+  border: none;
+  outline: none;
+  border-radius:8px ;
+}
+.selection{
+  display: block;
+  margin: auto;
+  background: #0dc692;
+  margin-top: 40px;
+  width: 200px;
+  height: 40px;
+  font-size: 25px;
+  text-align: center;
+  border: none;
+  outline: none;
+  border-radius:8px ;
+}
+.selectable{
+  height: 100%;
+  width: 30px;
+  background: black;
+  position: absolute;
+  right: 0px;
+  cursor: pointer;
+}
+#dragslide{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  transform: translate(100%, 100%);
+}
+.customtimers{
+  margin-top: 10px;
+  display: flex;
+}
+.btncustom{
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+
+}
+.selections{
+  width: 200px;
+  height: 40px;
+  font-size: 25px;
+  text-align: center;
+  border: none;
+  outline: none;
+  border-radius:8px;
+background: #bbffec;
+}
+.pausebtn{
+ cursor: pointer;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+  margin: auto;
+  margin-top: 60px;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  background: rgb(255, 123, 123);
+}
+.startbtn{
+  cursor: pointer;
+  display: flex;
+ justify-content: center;
+ align-items: center;
+  margin: auto;
+  margin-top: 60px;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  background: rgb(158, 255, 156);
+}
